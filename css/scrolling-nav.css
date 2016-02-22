@@ -28,37 +28,62 @@ html {
 }
 
 .intro-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    background-image: url("../images/intro.jpg");
 }
 
 .about-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    background-image: url("../images/about.jpg");
+}
+
+.about-section p {
+  max-width: 400px;
+  margin: auto;
+  font-size: 1.2em;
 }
 
 .portfolio-section {
-    height: 100%;
-    padding-top: 150px;
+    min-height: 100%;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
+    background-image: url("../images/portfolio.jpg");
 }
 
 .blog-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    background-image: url("../images/blog.jpg");
 }
 .contact-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    background-image: url("../images/contact.jpg");
+}
+
+.social-buttons {
+  padding-top: 30px;
+  border-top: 1px solid black;
+}
+
+.thumbnail img {
+  height: 100px;
+}
+
+.contact {
+  text-align: left;
+  margin-left: 30px;
 }
 
 footer {
